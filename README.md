@@ -1,6 +1,6 @@
 # HEXTRIS
 
-[![Witches](http://img.youtube.com/vi/TnmfOVHp3YM/0.jpg)](https://www.youtube.com/watch?v=TnmfOVHp3YM)
+[![HEXTRIS](http://img.youtube.com/vi/TnmfOVHp3YM/0.jpg)](https://www.youtube.com/watch?v=TnmfOVHp3YM)
 
 ## 説明
 横一直線にしてください。<br>
