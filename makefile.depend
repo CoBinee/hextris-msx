@@ -1,0 +1,17 @@
+crt0.rel            :   crt0.s
+main.rel            :   main.s \
+                        bios.inc System.inc
+System.rel          :   System.s System.inc \
+                        bios.inc vdp.inc
+App.rel             :   App.s App.inc \
+                        bios.inc vdp.inc System.inc Title.inc Game.inc
+Title.rel           :   Title.s Title.inc \
+                        bios.inc vdp.inc System.inc App.inc
+Game.rel            :   Game.s Game.inc \
+                        bios.inc vdp.inc System.inc App.inc Matrix.inc
+Matrix.rel          :   Matrix.s Matrix.inc \
+                        bios.inc vdp.inc System.inc App.inc Game.inc
+Tetrimino.rel       :   Tetrimino.s Tetrimino.inc \
+                        bios.inc vdp.inc System.inc App.inc Game.inc Matrix.inc Tetrimino.inc
+
+pattern.rel         :   pattern.s
